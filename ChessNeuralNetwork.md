@@ -112,6 +112,9 @@ model = SimpleNet()
 - Do not have a flawed premise
 - ChatGPT is quite aggreeable. If you prompt it on nonsense, it just goes with it
 - In the past, was true for all LLMs (May not be the case anymore)
+- [Benchmark](https://petergpt.github.io/bullshit-benchmark/viewer/index.v2.html?q=fin_rm_01&a=openai%2Fgpt-5.1-chat%40reasoning%3Ddefault&b=x-ai%2Fgrok-4.20-beta%40reasoning%3Dxhigh)
+  - This benchmarks LLMs on illogical, nonsensical questions.
+  - At the very bottom is a Response Viewer
 ---
 ## Fancy Neural Network Stuff
 ---
@@ -154,6 +157,3 @@ class ResBlock(nn.Module):
 - You can use a higher learning rate
 #### Caution
 - Too small batch size
----
-## End Result of everything I learned
-![alt text](assets/NN/finalresult.png)
